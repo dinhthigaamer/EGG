@@ -1,0 +1,53 @@
+.list {
+    width: auto;
+    height: 100%; 
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    /* border: 2px black solid; */
+}
+
+#listitem {
+    width: 30%;
+    border: 2px red solid;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#item_title {
+    text-align: center;
+    font: 300px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#btn {
+    position: relative;
+    width: 100%;
+    /* top: 95%;
+    left: 10%; */
+}
+
+#task {
+    border: 1px green solid;
+    /* position: relative; */
+    width: 100%;
+    height: 30px;
+}
+
+input {
+    width: 100%;
+    /* height: 100%; */
+    border: 1px green solid;
+    /* position: relative; */
+    width: 100%;
+    /* width: 255px; */
+    height: 30px;
+}
+
+.dragable {
+    text-align: center;
+    background-color: red;
+    border: 1px solid black;
+}
